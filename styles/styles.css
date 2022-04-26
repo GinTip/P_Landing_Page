@@ -20,6 +20,15 @@
 .contenedor{
     padding: 50px;
     text-align: center;
+    align-items: center;
+}
+
+.contenedorTwo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #000000;
+    color: azure;
 }
 
 a:link{
