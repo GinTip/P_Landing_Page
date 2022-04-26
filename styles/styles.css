@@ -15,3 +15,8 @@
     padding: 50px;
     text-align: center;
 }
+
+.contenedorDos{
+    display: flex;
+    align-items: stretch;
+}
