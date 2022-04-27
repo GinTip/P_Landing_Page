@@ -25,10 +25,24 @@
 
 .contenedorTwo{
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
+    padding: 150px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
     background-color: #000000;
     color: azure;
+}
+
+.contenedorImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.contenedorCard{
+    display: flex;
+    justify-content: stretch;
 }
 
 a:link{
