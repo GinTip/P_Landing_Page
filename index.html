@@ -122,10 +122,10 @@
       </div>
     </div>
     <!--Jumbotron-->
-    <div class="text-img">
-      <img src="images/img-bg-1.jpg" class="img-fluid" alt="bg-coffe-1" id="nosotros">
+    <div class="jumboOne">
+      <img src="images/img-bg-1.jpg" alt="bg-coffe-1" id="nosotros" class="img-fluid">
       <div class="centrado">
-        <img src="images/logo-white-1.png" class="imagenD">
+        <img src="images/logo-white-1.png" class="imageOne">
           <p>
             <b>doodle café.</b>, surge de la iniciativa de crear un espacio cómodo
             para que la mente creativa se desenvuelva. Bajo esta premisa nos
@@ -150,7 +150,7 @@
         <h3 class="tituloFour">Conoce nuestros productos más recientes</h3>
       </div>
       <!--Cards de Productos-->
-      <div class="row row-cols-1 row-cols-md-3 g-4" class="contenedorCard">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
         <!--Producto 1-->
         <div class="col">
           <div class="shadow p-3 mb-5 bg-body rounded">
@@ -168,7 +168,7 @@
               </ul>
               <small class="text-muted">$189.99</small>
             </div>
-            <div class="card-footer">
+            <div class="button" class="card-footer" >
               <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModalp1">
                 Comprar
               </button>
@@ -231,7 +231,7 @@
               </ul>
               <small class="text-muted">$169.99</small>
             </div>
-            <div class="card-footer">
+            <div class="button" class="card-footer">
               <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModalp2">
                 Comprar
               </button>
@@ -294,7 +294,7 @@
               </ul>
               <small class="text-muted">$199.99</small>
             </div>
-            <div class="card-footer">
+            <div class="button" class="card-footer">
               <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModalp3">
                 Comprar
               </button>
@@ -345,16 +345,16 @@
     <!--Adicionales-->
     <div>
       <!--Proximamente-->
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="images/img-subs.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-          </div>
+      <div class="contenedorThree">
+        <div class="contenedorThree">
           <div class="col-lg-6">
             <h1 class="tituloOne">Proximamente nuevas sucursales en CDMX</h1>
             <p class="texto">Pronto tendremos sucursales en Condesa y Narvarte. 
               Disfruta de nuestros productos, puede que estemos más cerca de ti.</p>
             <button class="btn btn-warning" type="button"><a href="https://goo.gl/maps/twrhhjKGXvvAhnUH9">Ubica tu sucursal cercana</a></button>
+          </div>
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="images/img-subs.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
           </div>
         </div>
       </div>
@@ -377,10 +377,10 @@
             <label for="exampleFormControlTextarea1" class="form-label" class="texto">Comentarios</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button class="btn btn-warning" type="button" class="texto">Enviar</button>
+          <button class="btn btn-warning" type="button" >Enviar</button>
         </div>
-        <div>
-          <img src="images/doodle-taza-w.png" class="img-fluid">
+        <div class="imageTwo">
+          <img src="images/doodle-taza-w.png" class="imageTwo">
         </div>
       </div>
     </div>
@@ -426,7 +426,7 @@
                     <form>
                       <h5>Suscríbete a nuestro boletín informativo</h5>
                       <p>Resumen mensual de lo que es nuevo y emocionante de nosotros.</p>
-                      <div class="d-flex w-100 gap-2">
+                      <div class="formOne">
                         <label for="newsletter1" class="visually-hidden">Correo electrónico</label>
                         <input id="newsletter1" type="text" class="form-control" placeholder="ejemplo@email.com">
                         <button class="btn btn-warning" type="button" id="suscribete">Suscríbete</button>
