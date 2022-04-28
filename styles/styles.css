@@ -139,7 +139,7 @@ p{
     .button{
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 12px;
     }
 
     .imageTwo{
