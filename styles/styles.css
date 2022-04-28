@@ -70,3 +70,50 @@ p{
 .texto{
     font-family: 'Nunito', sans-serif;
 }
+
+@media (max-width: 478px){
+    .contenedorTwo{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        color: azure;
+        font-size: 16px;
+    }
+
+    .text-img{
+        text-align: center;
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contenedorCard{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tituloOne{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .tituloFour{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .centrado{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: azure;
+    }
+}
