@@ -1,4 +1,4 @@
-# Proyecto_1
+# Proyecto_1_Landing_Page
 Landing de Venta:
 Este proyecto está enfocado en construir una página "landing" para un negocio.
 
